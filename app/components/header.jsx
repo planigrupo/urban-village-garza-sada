@@ -48,7 +48,7 @@ export default function Header() {
                     <ul className="flex space-x-6 text-sm font-medium">
                         {NAV_LINKS.map((link) => (
                             <li key={link.name}>
-                                <Link href={link.href} className="text-gray-700 hover:text-pink-600 transition text-md">
+                                <Link href={link.href} className="text-gray-700 hover:text-urban-pink transition text-md">
                                     {link.name}
                                 </Link>
                             </li>

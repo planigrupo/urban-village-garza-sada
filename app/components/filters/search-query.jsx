@@ -20,12 +20,12 @@ export default function SearchQuery({
                 value={searchQuery}
                 onChange={handleSearchChange}
                 className="w-full max-w-xl px-5 py-2 rounded-full border border-gray-300 
-                    focus:outline-none focus:ring-2 focus:ring-pink-500"
+                    focus:outline-none focus:ring-2 focus:ring-urban-pink"
             />
 
             <button
                 onClick={() => handleMap()}
-                className="bg-pink-500 px-6 py-2 rounded-full text-white hover:border hover:border-pink-600 hover:bg-white hover:text-pink-600 cursor-pointer"
+                className="bg-urban-pink px-6 py-2 rounded-full text-white hover:border hover:border-urban-pink hover:bg-white hover:text-urban-pink cursor-pointer"
             >
                 Mostrar mapa
             </button>

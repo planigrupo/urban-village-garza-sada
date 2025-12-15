@@ -3,6 +3,8 @@
 @theme {
     --font-manrope: var(--font-manrope);
     --font-montserrat: var(--font-montserrat);
+
+    --color-urban-pink: #d41c68;
 }
 
 

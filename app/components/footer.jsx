@@ -31,9 +31,9 @@ const SOCIALS = [
 
 export default function Footer() {
     return (
-        <footer className="relative -z-10 mt-16 bg-pink-500 text-white">
+        <footer className="relative mt-16 bg-urban-pink text-white">
             <svg
-                className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-pink-500"
+                className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-urban-pink"
                 preserveAspectRatio="none"
                 viewBox="0 0 1440 54"
             >

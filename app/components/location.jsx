@@ -34,7 +34,7 @@ export default function Location() {
         >
             <div className='px-10 py-16 max-w-7xl mx-auto space-y-16'>
                 <div className='text-center space-y-6'>
-                    <span className='text-pink-600 font-semibold tracking-widest text-sm uppercase'> Encuéntranos </span>
+                    <span className='text-urban-pink font-semibold tracking-widest text-sm uppercase'> Encuéntranos </span>
 
                     {/* <h3 className='text-4xl font-bold tracking-tight flex justify-center items-center gap-3'>
                         <Icon name="map" className="size-9 text-red-600 hidden lg:block" /> Nuestra Ubicación
@@ -45,7 +45,7 @@ export default function Location() {
                         href="https://maps.app.goo.gl/M1VkChyQ2196L8kT9"
                         target="_blank"
                         rel="noreferrer nofollow"
-                        className="inline-block bg-pink-600 text-white px-7 py-2.5 rounded-full font-medium border border-pink-600 hover:bg-white hover:text-pink-600 transition-all duration-300"
+                        className="inline-block bg-urban-pink text-white px-7 py-2.5 rounded-full font-medium border border-urban-pink hover:bg-white hover:text-urban-pink transition-all duration-300"
                     >
                         Ver en Google Maps
                     </Link>

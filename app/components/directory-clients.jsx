@@ -80,33 +80,27 @@ export default function DirectoryCliets() {
                 }}
             />
 
-    {showMap && (
-  <div
-    className="fixed inset-0 z-50 bg-black/85 overflow-y-auto"
-  >
-    {/* Close button */}
-    <div
-      onClick={handleMap}
-      className="fixed left-6 top-6 z-50 rounded-full bg-pink-50 cursor-pointer"
-    >
-      <Icon
-        name="close"
-        className="size-12 p-2 stroke-2 text-pink-500"
-      />
-    </div>
+            {showMap && (
+                <div className="fixed inset-0 z-50 bg-black/85 overflow-y-auto">
+                    {/* Close button */}
+                    <div
+                        onClick={handleMap}
+                        className="fixed left-6 top-6 z-50 rounded-full bg-pink-50 cursor-pointer"
+                    >
+                        <Icon name="close" className="size-12 p-2 stroke-2 text-urban-pink" />
+                    </div>
 
-    {/* Image container */}
-    <div className="flex justify-center pt-24 pb-12">
-      <Image
-        src="/mapa.png"
-        alt="map"
-        width={1400}
-        height={2000}
-        className="max-w-none"
-      />
-    </div>
-  </div>
-)}
+                    <div className="flex justify-center pt-24 pb-12">
+                        <Image
+                            src="/mapa.png"
+                            alt="map"
+                            width={1400}
+                            height={2000}
+                            className="max-w-none"
+                        />
+                    </div>
+                </div>
+            )}
 
 
             {/* STORES LIST */}

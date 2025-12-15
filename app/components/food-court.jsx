@@ -38,7 +38,7 @@ export default function FoodCourt() {
 
                 <Link
                     href={'/directorio?category=comidas'}
-                    className="bg-pink-600 mt-6 text-white px-6 w-fit py-2 rounded-full hover:bg-white hover:text-pink-600 border border-pink-600 transition duration-300"
+                    className="bg-urban-pink mt-6 text-white px-6 w-fit py-2 rounded-full hover:bg-white hover:text-urban-pink border border-urban-pink transition duration-300"
                 >
                     Visita nuestro directorio
                 </Link>

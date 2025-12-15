@@ -102,7 +102,7 @@ export default function HeroSlider() {
 
                         <Link
                             href={currentOption.link}
-                            className="bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-white hover:text-pink-600 border border-pink-600 transition duration-300"
+                            className="bg-urban-pink text-white px-6 py-2 rounded-full hover:bg-white hover:text-urban-pink border border-urban-pink transition duration-300"
                         >
                             Ver más
                         </Link>
