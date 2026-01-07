@@ -13,7 +13,7 @@ export default function SearchQuery({
     };
 
     return (
-        <div className="w-full flex gap-3 items-center justify-center">
+        <div className="w-full gap-3 items-center justify-center grid lg:flex">
             <input
                 type="text"
                 placeholder="Buscar tienda por nombre..."

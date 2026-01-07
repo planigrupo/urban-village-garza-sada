@@ -61,7 +61,7 @@ export default function HeroSlider() {
 
     return (
         <motion.div
-            className="max-w-7xl mx-auto relative overflow-hidden bg-no-repeat bg-cover h-[30vh] lg:h-[50vh] xl:h-[70vh] lg:bg-center"
+            className="max-w-7xl mx-auto relative overflow-hidden bg-no-repeat bg-cover h-[28vh] bg-center lg:h-[50vh] xl:h-[70vh]"
             style={{
                 backgroundImage: `url(${currentOption.background})`,
                 /* backgroundSize: 'cover' */
@@ -93,7 +93,7 @@ export default function HeroSlider() {
                         }
                     }}
                 >
-                    <div className="flex flex-col justify-end translate-y-8 gap-8 z-10 items-center text-center lg:text-start lg:items-start lg:pl-16">
+                    <div className="flex flex-col justify-end gap-8 translate-y-10 z-10 items-center text-center lg:text-start lg:items-start lg:pl-16 lg:translate-y-8">
                         {/* <h1 className="font-medium font-montserrat text-white text-4xl md:text-5xl lg:text-6xl lg:max-w-sm"> {currentOption.title} </h1> */}
 
                         {currentOption.description && (
