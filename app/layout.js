@@ -39,7 +39,6 @@ export default function RootLayout({ children }) {
             <body
                 className={`${manrope.variable} ${montserrat.variable} antialiased`}
             >
-                <Snow />
                 <Header />
                 {children}
                 <Footer />
